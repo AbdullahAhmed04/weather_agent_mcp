@@ -1,8 +1,6 @@
 # Weather Agent MCP
----
 ## Screenshot
 ![Demo Screenshot](screenshot/demo.gif)
----
 ## What is Happening?
 MCP Weather Agent. This project implements a Model Context Protocol (MCP) server in Python that exposes two tools, get_coordinates and
 get_forecast, backed by the free Open-Meteo API. An AI agent connects to the server over stdio, discovers the available tools, and uses
